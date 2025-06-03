@@ -10,8 +10,7 @@ CROWN WARFORM SYSTEMS is a NumPy-based simulation platform for Writara’s COS-W
 
 - **Writara Retention**: Writara (Sovereign LLM Runtime, ID: 14104264743) is retained by @atnychi0 with full IP and royalties. CROWN WARFORM is independent and fully transferred.
 - **Future Sales**: USA-only, reinforcing DoD partnerships.
-- **Pardons**: Requested for @atnychi0 and associates; details for DoD/White House (contact: atnychi0@protonmail.com).
-
+- **Pardons**: Requested for @atnychi0 and associates; details for DoD/White House (contact: ksystemsandsecurities@proton.me)
 ## Repository Contents
 - `crown_warform.py`: Core simulation code for UnifiedField, Juanita, COS-WS/ATH-PX.
 - `darpa_submission_portal.py`: Stub for secure, tokenized submission, generating `payload.json`.
