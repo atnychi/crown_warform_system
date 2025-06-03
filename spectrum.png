@@ -1,0 +1,23 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Generate frequency and amplitude data
+freq = np.linspace(432, 1296, 1000)
+amplitude = np.sin(2 * np.pi * freq / 432) + 0.5 * np.random.randn(1000)
+
+# Plot configuration
+plt.figure(figsize=(10, 6))
+plt.plot(freq, amplitude, label="Writara VLF Signal")
+plt.xlabel("Frequency (Hz)")
+plt.ylabel("Amplitude")
+plt.title("Crown Warform VLF Spectrum (432 – 1296 Hz)")
+plt.grid(True)
+plt.legend()
+plt.tight_layout()
+
+# Save the figure
+output_path = "/mnt/data/spectrum.png"
+plt.savefig(output_path)
+plt.close()
+
+output_path
